@@ -27,9 +27,9 @@ This project is to develop a user-friendly Streamlit application that utilizes t
 - Search and retrieve data from the SQL database using various user search options.
 
 ### References
-YouTube API Documentation: https://developers.google.com/youtube
-MongoDB Documentation: https://docs.mongodb.com/
-SQLAlchemy Documentation: https://docs.sqlalchemy.org/
-[Pandas Documentation](https://pandas.pydata.org/docs/)
-Python Documentation: https://docs.python.org/
-Streamlit Documentation: https://docs.streamlit.io/
+- [YouTube API Documentation](https://developers.google.com/youtube)
+- [MongoDB Documentation](https://docs.mongodb.com/)
+- [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [Python Documentation](https://docs.python.org/)
+- [Streamlit Documentation](https://docs.streamlit.io/)
