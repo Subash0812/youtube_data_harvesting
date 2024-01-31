@@ -19,17 +19,22 @@ This project is to develop a user-friendly Streamlit application that utilizes t
 5. Join tables & retrieve specific channel data based on user SQL queries.
 6. Gain insights through SQL analysis & display results for user query in Streamlit app.
 
-### Usage
+### Usage :
 - Enter a YouTube channel ID to retrieve data for that channel.
 - Store the retrieved data in the MongoDB data lake.
 - Collect and store data for multiple YouTube channels in the data lake.
 - Select a channel and migrate its data from the data lake to the SQL data warehouse.
 - Search and retrieve data from the SQL database using various user search options.
 
-### References
+### References :
+- [Python Documentation](https://docs.python.org/)
 - [YouTube API Documentation](https://developers.google.com/youtube)
 - [MongoDB Documentation](https://docs.mongodb.com/)
-- [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
+- [Pymongo W3School](https://www.w3schools.com/python/python_mongodb_getstarted.asp)
+- [MySQL Connector W3School](https://docs.sqlalchemy.org/)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Python Documentation](https://docs.python.org/)
 - [Streamlit Documentation](https://docs.streamlit.io/)
+
+## Contact :
+- [Email](subashsb24@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/subash-r-a78876194?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
