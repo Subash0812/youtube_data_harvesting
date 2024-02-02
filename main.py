@@ -29,17 +29,6 @@ youtube = googleapiclient.discovery.build(
           api_service_name, api_version, developerKey=api_)
 
 
-
-#--------------------------------------------getting channel ID--------------------------------------------------------------
-def get_channel_id(channel_name):
-    response = youtube.search().list(
-            part='id',
-            q=channel_name,
-            type='channel'
-        ).execute()
-    channel_id = response['items'][0]['id']['channelId']
-    return channel_id
-
 #------------------------------------------Getting channel details--------------------------------------------------------
 def get_channel_details(channel_id):
     request = youtube.channels().list(
