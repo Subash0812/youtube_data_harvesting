@@ -120,9 +120,13 @@ def get_video_details(channel_id):
         if 'M' not in s:
             l.insert(1,'00')
         if 'S' not in s:
-            l.insert(-1,'00')  
-          
-        duration  = ':'.join(l) 
+            l.insert(-1,'00') 
+	for i in range(len(l)):
+            if len(l[i])==1:
+                value='0'+l[i]
+                l.remove(l[i])
+                l.insert(i,value)
+            duration = ':'.join(l) 	 
         if len(duration) <= 8: 
             video_info = {
                 "Channel_Name":response['snippet']['channelTitle'],
